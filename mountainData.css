@@ -1,0 +1,72 @@
+body {
+    background-image: url(./1994612.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.cardWrapper {
+    background-color: #fff;
+    padding-bottom: 50px;
+    padding: 20px;  
+    width: 600px;      
+    margin-left: 5px;
+    text-align: center;
+    color: #666;       
+}
+
+.image {
+    width: 100%;
+    height: 387px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 100px;
+    cursor: pointer;
+}
+
+.icon:hover {   
+   opacity: 0.5;
+}
+
+.iconWeather {
+    width: 100px;
+    cursor: pointer;
+}
+
+.iconWeather:hover {   
+    opacity: 0.5;
+ }
+
+#map {
+    height: 324px;
+    width: 100%
+}
+.mountainName{
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 425px){
+
+.cardWrapper{
+    font-size: 13px;
+}
+
+.image{
+    height: auto;
+}
+#map{
+    height: 200px;
+}
+
+.icon, .iconWeather{
+    width: 70px;
+}
+    
+}
